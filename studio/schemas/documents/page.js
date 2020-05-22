@@ -5,11 +5,6 @@ export default {
   title: 'Pages',
   fields: [
     {
-      name: 'pageBuilder',
-      type: 'pageBuilder',
-      title: 'Page Builder'
-    },
-    {
       name: 'title',
       type: 'string',
       title: 'Title'
@@ -22,6 +17,11 @@ export default {
         source: 'title',
         maxLength: 96
       }
+    },
+    {
+      name: 'pageBuilder',
+      type: 'pageBuilder',
+      title: 'Page Builder'
     }
   ],
   preview: {
