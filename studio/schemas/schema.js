@@ -8,7 +8,7 @@ import page from './documents/page'
 import pageBuilder from './objects/pageBuilder'
 import pageBuilderContent from './objects/pageBuilderContent'
 import pageBuilderColumns from './objects/pageBuilderColumns'
-import columns from './objects/columns'
+import column from './objects/column'
 import bodyPortableText from './objects/bodyPortableText'
 import mainImage from './objects/mainImage'
 
@@ -22,7 +22,7 @@ export default createSchema({
     pageBuilder,
     pageBuilderContent,
     pageBuilderColumns,
-    columns,
+    column,
     bodyPortableText,
     mainImage
   ])

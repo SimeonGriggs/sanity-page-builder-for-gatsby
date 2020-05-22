@@ -19,7 +19,9 @@ const PageBuilderContent = ({block, raw}) => {
       </div>
 
       <div className='md:w-2/3 bg-indigo-100 rounded-r-lg p-8'>
-        <h1 className='text-indigo-500 text-4xl leading-none font-bold mb-5'>{title}</h1>
+        <h1 className='text-indigo-500 text-4xl leading-none font-bold mb-5'>
+          {title}
+        </h1>
         <PortableText blocks={raw.body} />
       </div>
     </section>
